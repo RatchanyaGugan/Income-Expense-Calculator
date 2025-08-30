@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Income Expense Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Income Expense Calculator</h1>
+        <form id="budgetForm">
+            <label for="income">Total Income:</label>
+            <input type="number" id="income" placeholder="Enter your income" required>
+            <label for="expense">Total Expenses:</label>
+            <input type="number" id="expense" placeholder="Enter your expenses" required>
+            <button type="submit">Calculate</button>
+        </form>
+        <div class="result">
+            <h2>Remaining Balance: <span id="remainingBalance">$0</span></h2>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
